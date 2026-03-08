@@ -28,7 +28,7 @@ const Navbar = () => {
   const handleDownload = (e) => {
   e.preventDefault(); // Link click side-effect rokne ke liye
   const link = document.createElement("a");
-  link.href = "/files/resume.pdf"; // PDF public/files me hona chahiye
+  link.href = "/Deepak_Shahni_Resume.pdf"; // PDF public/files me hona chahiye
   link.download = "Resume.pdf";
   link.click();
   };
